@@ -214,4 +214,14 @@
 
 		});
 
+		$(document).ready(function() {
+			const currentUrl = window.location.pathname; // Récupère le chemin de l'URL actuelle
+			$('#nav a').each(function() {
+				// Vérifie si l'URL actuelle contient le href de l'élément
+				if (currentUrl.includes($(this).attr('href'))) {
+					$(this).addClass('active'); // Ajoute la classe 'active' à l'élément correspondant
+				}
+			});
+		});
+
 })(jQuery);
