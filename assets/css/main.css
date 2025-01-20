@@ -1795,6 +1795,55 @@ input, select, textarea {
 			width: 100%;
 		}
 
+		.image.contact {
+			display: flex; /* Utilisation de flexbox pour centrer */
+			justify-content: center; /* Centre horizontalement */
+			align-items: center; /* Centre verticalement si nécessaire */
+		}
+		.image.contact img {
+			display: block;
+			width: 150px; /* Taille personnalisée */
+			height: 150px; /* Taille personnalisée */
+			border-radius: 50%; /* Rend l'image ronde */
+			object-fit: cover; /* Garde l'image cadrée */
+			margin: 0 auto; /* Centre horizontalement */
+		}
+		.contact-details,
+		.fundings,
+		.alumnis {
+			margin-top: 5px;
+			font-size: 14px;
+			line-height: 1.6;
+		}
+
+		.contact-details p,
+		.fundings p,
+		.alumnis p {
+			margin: 10px 0;
+		}
+
+		.fundings h4,
+		.alumnis h4 {
+			font-size: 16px;
+			font-weight: bold;
+			margin-bottom: 10px;
+		}
+
+		.fundings em,
+		.alumnis em {
+			font-style: italic;
+		}
+
+		.alumnis a {
+			color: #007BFF;
+			text-decoration: none;
+		}
+
+		.alumnis a:hover {
+			text-decoration: underline;
+		}
+		
+		
 		.image.featured {
 			display: block;
 			width: 100%;
