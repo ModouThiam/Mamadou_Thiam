@@ -1794,63 +1794,6 @@ input, select, textarea {
 			display: block;
 			width: 100%;
 		}
-
-		.image.contact {
-			display: flex; /* Utilisation de flexbox pour centrer */
-			justify-content: center; /* Centre horizontalement */
-			align-items: center; /* Centre verticalement si nécessaire */
-		}
-		.image.contact img {
-			display: block;
-			width: 150px; /* Taille personnalisée */
-			height: 150px; /* Taille personnalisée */
-			border-radius: 50%; /* Rend l'image ronde */
-			object-fit: cover; /* Garde l'image cadrée */
-			margin: 0 auto; /* Centre horizontalement */
-		}
-		.contact-details,
-		.fundings,
-		.alumnis {
-			margin-top: 20px;
-			font-size: 14px;
-			line-height: 1.6;
-		}
-
-		.contact-details p {
-			text-align: center;
-			margin: 10px 0;
-		}
-		.fundings p,
-		.alumnis p {
-			margin: 10px 0;
-		}
-
-
-		.fundings h4,
-		.alumnis h4 {
-			font-size: 16px;
-			font-weight: bold;
-			margin-bottom: 10px;
-			text-align: center;
-		}
-
-		.fundings em,
-		.alumnis em {
-			font-style: italic;
-		}
-
-		.alumnis a {
-			color: #007BFF;
-			text-decoration: none;
-		}
-		.alumnis p {
-			text-align: center;
-		}
-
-		.alumnis a:hover {
-			text-decoration: underline;
-		}
-		
 		
 		.image.featured {
 			display: block;
@@ -1872,6 +1815,228 @@ input, select, textarea {
 				margin: 0 auto;
 				width: auto;
 			}
+/* partie Contact */
+
+	.image.contact {
+		display: flex; /* Utilisation de flexbox pour centrer */
+		justify-content: center; /* Centre horizontalement */
+		align-items: center; /* Centre verticalement si nécessaire */
+	}
+	.image.contact img {
+		display: block;
+		width: 150px; /* Taille personnalisée */
+		height: 150px; /* Taille personnalisée */
+		border-radius: 50%; /* Rend l'image ronde */
+		object-fit: cover; /* Garde l'image cadrée */
+		margin: 0 auto; /* Centre horizontalement */
+	}
+	.contact-details,
+	.fundings,
+	.alumnis {
+		margin-top: 20px;
+		font-size: 14px;
+		line-height: 1.6;
+	}
+
+	.contact-details p {
+		text-align: center;
+		margin: 10px 0;
+	}
+	.fundings p,
+	.alumnis p {
+		margin: 10px 0;
+	}
+
+	.fundings h4,
+	.alumnis h4 {
+		font-size: 16px;
+		font-weight: bold;
+		margin-bottom: 10px;
+		text-align: center;
+	}
+
+	.fundings em,
+	.alumnis em {
+		font-style: italic;
+	}
+
+	.alumnis a {
+		color: #007BFF;
+		text-decoration: none;
+	}
+	.alumnis p {
+		text-align: center;
+	}
+
+	.alumnis a:hover {
+		text-decoration: underline;
+	}
+
+/* My CV */
+	.education {
+		font-family: Arial, sans-serif;
+		margin: 20px;
+		/* margin-top: 15px; */
+		line-height: 1.6;
+	}
+
+    .education h3 {
+        font-size: 1.8em;
+        margin-bottom: 10px;
+    }
+
+    .education ul {
+        list-style-type: disc;
+        margin-left: 20px;
+    }
+
+    .education li {
+        margin-bottom: 10px;
+    }
+
+    .education strong {
+        color: #0056b3;
+    }
+
+    .education em {
+        font-style: italic;
+        color: #555;
+    }
+
+
+	.experience {
+		font-family: Arial, sans-serif;
+		margin: 20px;
+		line-height: 1.6;
+		/* color: #555; */
+	}
+
+		.experience h3 {
+			font-size: 1.8em;
+			margin-bottom: 10px;
+		}
+
+		.experience ul {
+			list-style-type: disc;
+			margin-left: 20px;
+		}
+
+		.experience li {
+			margin-bottom: 10px;
+		}
+
+		.experience strong {
+			color: #0056b3;
+		}
+
+		.experience em {
+			font-style: italic;
+			color: #555;
+		}
+
+	.competence {
+		font-family: Arial, sans-serif;
+		line-height: 1.6;
+		margin: 20px;
+	}
+		
+		.competence h3 {
+			font-size: 1.8em;
+			margin-bottom: 10px;
+		}
+		
+		.competence ul {
+			list-style-type: disc;
+			margin-left: 20px;
+		}
+		
+		.competence li {
+			margin-bottom: 15px;
+		}
+		
+		.competence strong {
+			color: #0056b3;
+		}
+		
+		.competence em {
+			font-style: italic;
+			color: #555;
+		}
+
+		.competences {
+			font-family: Arial, sans-serif;
+			line-height: 1.6;
+			margin: 20px;
+		}
+		
+		.competences h3 {
+			font-size: 1.8em;
+			margin-bottom: 10px;
+		}
+		
+		.competences ul {
+			list-style-type: disc;
+			margin-left: 20px;
+		}
+		
+		.competences li {
+			margin-bottom: 10px;
+		}
+		
+		.competences strong {
+			color: #0056b3;
+		}
+		
+		.competences em {
+			font-style: italic;
+			color: #555;
+		}
+		
+
+
+	.experience-research {
+		font-family: Arial, sans-serif;
+		line-height: 1.6;
+		margin: 20px;
+	}
+		
+		.experience-research h3 {
+			font-size: 1.8em;
+			margin-bottom: 10px;
+		}
+		
+		.experience-research p {
+			margin-bottom: 20px;
+		}
+		
+		.experience-research strong {
+			color: #0056b3;
+		}
+		
+		.experience-research em {
+			font-style: italic;
+			color: #555;
+		}		
+
+		.download-cv {
+			margin-top: 20px;
+			text-align: center;
+		}
+
+		.btn-download {
+			display: inline-block;
+			text-decoration: none;
+			background-color: #0056b3;
+			color: white;
+			padding: 10px 20px;
+			border-radius: 5px;
+			font-size: 1em;
+		}
+
+		.btn-download:hover {
+			background-color: #003d7a;
+		}
+
 
 /* List */
 
