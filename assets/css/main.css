@@ -1876,12 +1876,11 @@ input, select, textarea {
 	.education {
 		font-family: Arial, sans-serif;
 		margin: 20px;
-		/* margin-top: 15px; */
 		line-height: 1.6;
 	}
 
     .education h3 {
-        font-size: 1.8em;
+        font-size: 1.5em;
         margin-bottom: 10px;
     }
 
@@ -1904,11 +1903,10 @@ input, select, textarea {
     }
 
 
-	.experience {
+	/* .experience {
 		font-family: Arial, sans-serif;
 		margin: 20px;
 		line-height: 1.6;
-		/* color: #555; */
 	}
 
 		.experience h3 {
@@ -2016,7 +2014,7 @@ input, select, textarea {
 		.experience-research em {
 			font-style: italic;
 			color: #555;
-		}		
+		}		 */
 
 		.download-cv {
 			margin-top: 20px;
