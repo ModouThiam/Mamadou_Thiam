@@ -1912,7 +1912,6 @@ input, select, textarea {
 			color: #0056b3;
 		}
 
-
 		.download-cv {
 			margin-top: 20px;
 			text-align: center;
@@ -2023,6 +2022,45 @@ input, select, textarea {
 			color: #555;
 		}
 
+/* My phd */
+	.phd {
+		font-family: Arial, sans-serif;
+		margin: 20px;
+		line-height: 1.6;
+	}
+
+		.phd h2 {
+			font-size: 2em;
+			text-align: center;
+		}
+
+		.phd h3 {
+			font-size: 1.5em;
+			margin-bottom: 10px;
+		}
+
+		.phd ul {
+			list-style-type: disc;
+			margin-left: 20px;
+		}
+
+		.phd li {
+			margin-bottom: 10px;
+		}
+
+		.phd strong {
+			color: #0056b3;
+		}
+
+		.phd em {
+			font-style: italic;
+			/* color: #555; */
+		}
+
+		.phd a {
+			text-decoration: underline;
+			color: #0056b3;
+		}
 
 
 
