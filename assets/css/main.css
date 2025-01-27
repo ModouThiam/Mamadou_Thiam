@@ -2852,7 +2852,7 @@ input, select, textarea {
 		margin-bottom: 0;
 	}
 
-		.carousel .forward, .carousel .backward {
+		/* .carousel .forward, .carousel .backward {
 			position: absolute;
 			top: 50%;
 			width: 6em;
@@ -2919,22 +2919,22 @@ input, select, textarea {
 				-webkit-transform: scaleX(-1);
 				-ms-transform: scaleX(-1);
 				transform: scaleX(-1);
-			}
+			}*/
 
 		.carousel .reel {
 			white-space: nowrap;
 			position: relative;
 			-webkit-overflow-scrolling: touch;
 			padding: 0 2em 0 2em;
-		}
+		} 
 
 		.carousel article {
 			display: inline-block;
 			width: 18em;
 			/* background: #fff; */
 			text-align: center;
-			padding: 0 1em 3em 1em;
-			margin: 0 2em 0 0;
+			/* padding: 0 1em 3em 1em;
+			margin: 0 2em 0 0; */
 			white-space: normal;
 			opacity: 1.0;
 			-moz-transition: opacity 0.75s ease-in-out;
@@ -2953,8 +2953,16 @@ input, select, textarea {
 				top: 0;
 				width: auto;
 				margin-right: -2em;
-				margin-bottom: 3em;
+				margin-bottom: 1em;
 			}
+
+			.carousel .image img {
+				width: 200px;
+				height: auto;
+				/*max-height: 200px; /* Ajustez cette valeur selon la taille souhaitée */
+				/* object-fit: cover; Gère le cadrage des images */
+			}
+			
 
 			.carousel article p {
 				text-align: center;
@@ -2963,6 +2971,11 @@ input, select, textarea {
 			.carousel header h3 {
 				text-align: center;;
 			}
+
+
+			
+			
+/* ligthning modal */
 
 			
 /* Wide */
@@ -3133,6 +3146,7 @@ input, select, textarea {
 
 			.image.featured {
 				margin: 0 0 2em 0;
+				max-height: 200px;
 			}
 
 			.image.left {
