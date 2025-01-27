@@ -2843,6 +2843,7 @@ input, select, textarea {
 				}
 
 /* Carousel */
+	
 
 	.carousel {
 		position: relative;
@@ -2930,7 +2931,7 @@ input, select, textarea {
 		.carousel article {
 			display: inline-block;
 			width: 18em;
-			background: #fff;
+			/* background: #fff; */
 			text-align: center;
 			padding: 0 1em 3em 1em;
 			margin: 0 2em 0 0;
@@ -2959,6 +2960,11 @@ input, select, textarea {
 				text-align: center;
 			}
 
+			.carousel header h3 {
+				text-align: center;;
+			}
+
+			
 /* Wide */
 
 	@media screen and (max-width: 1680px) {
