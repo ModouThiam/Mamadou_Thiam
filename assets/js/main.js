@@ -225,4 +225,34 @@
 		});
 
 
+        // let images = document.querySelectorAll('.thumbnail');
+        // let lightbox = document.getElementById('lightbox');
+        // let lightboxImg = document.getElementById('lightbox-img');
+        // let currentIndex = 0;
+
+        // images.forEach((img, index) => {
+        //     img.addEventListener('click', () => {
+        //         lightbox.style.display = 'flex';
+        //         lightboxImg.src = img.src;
+        //         currentIndex = index;
+        //     });
+        // });
+
+        // function closeLightbox(event) {
+        //     if (event.target === lightbox || event.target.classList.contains('close')) {
+        //         lightbox.style.display = 'none';
+        //     }
+        // }
+
+        // function prevImage(event) {
+        //     event.stopPropagation();
+        //     currentIndex = (currentIndex - 1 + images.length) % images.length;
+        //     lightboxImg.src = images[currentIndex].src;
+        // }
+
+        // function nextImage(event) {
+        //     event.stopPropagation();
+        //     currentIndex = (currentIndex + 1) % images.length;
+        //     lightboxImg.src = images[currentIndex].src;
+        // }
 })(jQuery);
